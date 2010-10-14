@@ -1,0 +1,26 @@
+--- 
+attachment_max_size: 500000
+default_title: !binary |
+  5pmv5b636ZWH5pS/5bqc6YeH6LSt6aG555uu
+
+default_html_description: !binary |
+  5pS/5bqc6YeH6LStLOWNj+iuruS+m+i0pyzmi5vmipXmoIflubPlj7A=
+
+default_per_page_size: 10
+
+#设置新创建采购人用户是否需要注册
+new_purchaser_need_audit: true
+
+domain_name: www.jumaimai.com
+default_email: help@jumaimai.com   
+
+seller_should_confirm_deliver_after: 7
+user_should_confirm_receive_after: 7
+user_should_mark_before: 7
+
+jmm_zhifubao_email: money@jumaimai.com 
+jmm_zhifubao_password: jumaimailogin
+jmm_zhifubao_partnerid: 222222
+jmm_zhifubao_account: 北京麦浪科技有限公司
+
+
