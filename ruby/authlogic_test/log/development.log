@@ -1,0 +1,71 @@
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (111.9ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW KEYS FROM `schema_migrations`[0m
+  [1m[35mSQL (269.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.6ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20101125021219)
+  [1m[35mSQL (82.8ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `login_count` int(11), `failed_login_count` int(11), `last_request_at` datetime, `last_login_at` datetime, `current_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20101125021219')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.4ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `users`
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from <top (required)> at /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Calling a method in Rails::Application is deprecated, please call it directly in your application constant AuthlogicTest::Application. (called from irb_binding at (irb):9)
+DEPRECATION WARNING: Calling a method in Rails::Application is deprecated, please call it directly in your application constant AuthlogicTest::Application. (called from irb_binding at (irb):10)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+  [1m[36mSQL (40.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20101125021219)
+Migrating to CreateProducts (20101129082521)
+  [1m[35mSQL (53.0ms)[0m  CREATE TABLE `products` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20101129082521')[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (2.2ms)[0m  [1mdescribe `products`[0m
+  [1m[35mSQL (1.6ms)[0m  SHOW KEYS FROM `products`
+  [1m[36mSQL (2.1ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.8ms)[0m  SHOW KEYS FROM `users`
+  [1m[36mSQL (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.1ms)[0m  [1mdescribe `products`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `products` (`content`, `updated_at`, `created_at`, `title`) VALUES (NULL, '2010-11-29 08:25:45', '2010-11-29 08:25:45', NULL)
+  [1m[36mSQL (0.5ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+  [1m[36mSQL (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `products`[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO `products` (`created_at`, `updated_at`, `title`, `content`) VALUES ('2010-11-29 08:28:27', '2010-11-29 08:28:27', NULL, NULL)
+  [1m[36mSQL (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mProduct Load (0.5ms)[0m  SELECT `products`.* FROM `products` ORDER BY products.id DESC LIMIT 1
+  [1m[36mProduct Load (1.7ms)[0m  [1mSELECT `products`.* FROM `products` ORDER BY products.id DESC LIMIT 1[0m
+DEPRECATION WARNING: Use toplevel init.rb; rails/init.rb is deprecated: /Users/xucming/Code/github/ruby/authlogic_test/vendor/plugins/authlogic/rails/init.rb. (called from /Users/xucming/Code/github/ruby/authlogic_test/config/environment.rb:5)
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products` ORDER BY products.id DESC LIMIT 1[0m
+  [1m[35mProduct Load (0.7ms)[0m  SELECT `products`.* FROM `products` ORDER BY products.id DESC LIMIT 1
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT `products`.* FROM `products` ORDER BY products.id DESC LIMIT 1[0m

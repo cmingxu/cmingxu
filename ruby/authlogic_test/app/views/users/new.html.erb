@@ -1,0 +1,10 @@
+<%= form_for @user, :url => account_path do |form| %>  
+  <%= form.error_message %>  
+  <%= form.label :email %>  
+  <%= form.text_field :email %><br/>  
+  <%= form.label :password %>  
+  <%= form.password_field :password %><br/>  
+  <%= form.label :password_confirmation %>  
+  <%= form.label :password_confirmation %><br/>  
+  <%= form.submit 'sign up'%>  
+<% end %>  
