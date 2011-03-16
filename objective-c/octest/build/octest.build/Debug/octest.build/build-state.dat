@@ -1,0 +1,95 @@
+Toctest
+v7
+r0
+t319805895.072564
+cCheck dependencies
+cProcessPCH /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/octest_Prefix-aymqdvjftmkwsrbxqozlsuczqfza/octest_Prefix.pch.gch octest_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/octest.build/Debug/octest.build/Objects-normal/x86_64/octest.o /Users/xucming/Code/github/objective-c/octest/octest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/xucming/Code/github/objective-c/octest/build/Debug/octest normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C30993C00000000000000EE
+t1278253372
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B90FBB700000000000013E6
+t1267792823
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CD5C66A0000000000B3E910
+t1289078378
+s11790608
+
+N/Users/xucming/Code/github/objective-c/octest/build/Debug/octest
+t1298113069
+s13864
+
+N/Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/Objects-normal/x86_64/octest.LinkFileList
+c000000004D5F9AE70000000000000073
+t1298111207
+s115
+
+N/Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/Objects-normal/x86_64/octest.o
+t1298113069
+s11920
+
+N/Users/xucming/Code/github/objective-c/octest/octest.m
+c000000004D5FA7A60000000000000455
+t1298114470
+s1109
+i<Foundation/Foundation.h>
+
+N/Users/xucming/Code/github/objective-c/octest/octest_Prefix.pch
+c000000004D5F9A50000000000000009A
+t1298111056
+s154
+i<Foundation/Foundation.h>
+
+N/var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/octest_Prefix-aymqdvjftmkwsrbxqozlsuczqfza/octest_Prefix.pch.gch
+t1298111210
+s41401104
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319805895#319805895#0(0"0(0#1#0"8617306112#0"0#
+
+CCompileC build/octest.build/Debug/octest.build/Objects-normal/x86_64/octest.o /Users/xucming/Code/github/objective-c/octest/octest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319805869.591422
+e319805869.722417
+r1
+xCompileC
+xbuild/octest.build/Debug/octest.build/Objects-normal/x86_64/octest.o
+x/Users/xucming/Code/github/objective-c/octest/octest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/xucming/Code/github/objective-c/octest/octest.m: In function 'main':
+o/Users/xucming/Code/github/objective-c/octest/octest.m:41: warning: unused variable 'fm'
+lSLF07#2@62"Compile /Users/xucming/Code/github/objective-c/octest/octest.m319805869#319805869#0(165"/Users/xucming/Code/github/objective-c/octest/octest.m: In function 'main':/Users/xucming/Code/github/objective-c/octest/octest.m:41: warning: unused variable 'fm'1(22@20"Unused variable 'fm'319805869#76#89#0(6@54"/Users/xucming/Code/github/objective-c/octest/octest.m319805868#41#0#41#0#19"unused variable '*'0(0#0#54"/Users/xucming/Code/github/objective-c/octest/octest.m8620063296#1511"    cd /Users/xucming/Code/github/objective-c/octest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/octest-generated-files.hmap -I/Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/octest-own-target-headers.hmap -I/Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/octest-all-target-headers.hmap -iquote /Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/octest-project-headers.hmap -F/Users/xucming/Code/github/objective-c/octest/build/Debug -I/Users/xucming/Code/github/objective-c/octest/build/Debug/include -I/Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/DerivedSources/x86_64 -I/Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/DerivedSources -include /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/octest_Prefix-aymqdvjftmkwsrbxqozlsuczqfza/octest_Prefix.pch -c /Users/xucming/Code/github/objective-c/octest/octest.m -o /Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/Objects-normal/x86_64/octest.o0#
+
+CLd /Users/xucming/Code/github/objective-c/octest/build/Debug/octest normal x86_64
+s319805869.722524
+e319805869.747487
+r1
+xLd
+x/Users/xucming/Code/github/objective-c/octest/build/Debug/octest
+xnormal
+xx86_64
+lSLF07#2@69"Link /Users/xucming/Code/github/objective-c/octest/build/Debug/octest319805869#319805869#0(0"0(0#0#0"8617141824#551"    cd /Users/xucming/Code/github/objective-c/octest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/xucming/Code/github/objective-c/octest/build/Debug -F/Users/xucming/Code/github/objective-c/octest/build/Debug -filelist /Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/Objects-normal/x86_64/octest.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/xucming/Code/github/objective-c/octest/build/Debug/octest0#
+
+CProcessPCH /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/octest_Prefix-aymqdvjftmkwsrbxqozlsuczqfza/octest_Prefix.pch.gch octest_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319804007.298445
+e319804010.116475
+r1
+xProcessPCH
+x/var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/octest_Prefix-aymqdvjftmkwsrbxqozlsuczqfza/octest_Prefix.pch.gch
+xoctest_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile octest_Prefix.pch319804007#319804010#0(0"0(0#0#63"/Users/xucming/Code/github/objective-c/octest/octest_Prefix.pch7309993516081570816#1407"    cd /Users/xucming/Code/github/objective-c/octest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/octest-generated-files.hmap -I/Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/octest-own-target-headers.hmap -I/Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/octest-all-target-headers.hmap -iquote /Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/octest-project-headers.hmap -F/Users/xucming/Code/github/objective-c/octest/build/Debug -I/Users/xucming/Code/github/objective-c/octest/build/Debug/include -I/Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/DerivedSources/x86_64 -I/Users/xucming/Code/github/objective-c/octest/build/octest.build/Debug/octest.build/DerivedSources -c /Users/xucming/Code/github/objective-c/octest/octest_Prefix.pch -o /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/octest_Prefix-aymqdvjftmkwsrbxqozlsuczqfza/octest_Prefix.pch.gch0#
+

@@ -21,3 +21,10 @@ end
 IO.foreach(__FILE__) do |line|
   p line
 end
+
+Spen::Runner.configure do |config|
+  config.incldue(SSS)
+
+end
+
+
