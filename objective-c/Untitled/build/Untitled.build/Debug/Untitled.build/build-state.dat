@@ -1,0 +1,132 @@
+TUntitled
+v7
+r0
+t322123735.012683
+cCheck dependencies
+cProcessPCH /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch.gch Untitled_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.o /Users/xucming/Code/github/objective-c/Untitled/Untitled.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/LotteryEntry.o /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/xucming/Code/github/objective-c/Untitled/build/Debug/Untitled normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C30993C00000000000000EE
+t1278253372
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B90FBB700000000000013E6
+t1267792823
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CD5C66A0000000000B3E910
+t1289078378
+s11790608
+
+N/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h
+c000000004D8089DE00000000000001B4
+t1300269534
+s436
+i<Cocoa/Cocoa.h>
+
+N/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m
+c000000004D808A4C0000000000000319
+t1300269644
+s793
+i"LotteryEntry.h"
+i"LotteryEntry.h"
+
+N/Users/xucming/Code/github/objective-c/Untitled/Untitled.m
+c000000004D83005500000000000002B7
+t1300430933
+s695
+i<Foundation/Foundation.h>
+i"LotteryEntry.h"
+
+N/Users/xucming/Code/github/objective-c/Untitled/Untitled_Prefix.pch
+c000000004D5F9A28000000000000009E
+t1298111016
+s158
+i<Foundation/Foundation.h>
+
+N/Users/xucming/Code/github/objective-c/Untitled/build/Debug/Untitled
+t1300430935
+s15744
+
+N/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/LotteryEntry.o
+t1300423889
+s12320
+
+N/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.LinkFileList
+c000000004D80890200000000000000FA
+t1300269314
+s250
+
+N/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.o
+t1300430934
+s9616
+
+N/var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch.gch
+t1300269319
+s41401104
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322123734#322123734#0(0"0(0#1#0"8621940160#0"0#
+
+CCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/LotteryEntry.o /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322116686.277854
+e322116689.937474
+r1
+xCompileC
+xbuild/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/LotteryEntry.o
+x/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m322116686#322116689#0(0"0(0#0#62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m3917909816998063104#1585"    cd /Users/xucming/Code/github/objective-c/Untitled    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-generated-files.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-own-target-headers.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-all-target-headers.hmap -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-project-headers.hmap -F/Users/xucming/Code/github/objective-c/Untitled/build/Debug -I/Users/xucming/Code/github/objective-c/Untitled/build/Debug/include -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources/x86_64 -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources -include /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch -c /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m -o /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/LotteryEntry.o0#
+
+CCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.o /Users/xucming/Code/github/objective-c/Untitled/Untitled.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s322123734.507725
+e322123734.993727
+r1
+xCompileC
+xbuild/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.o
+x/Users/xucming/Code/github/objective-c/Untitled/Untitled.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/xucming/Code/github/objective-c/Untitled/Untitled.m: In function 'main':
+o/Users/xucming/Code/github/objective-c/Untitled/Untitled.m:19: warning: missing sentinel in function call
+lSLF07#2@66"Compile /Users/xucming/Code/github/objective-c/Untitled/Untitled.m322123734#322123734#0(186"/Users/xucming/Code/github/objective-c/Untitled/Untitled.m: In function 'main':/Users/xucming/Code/github/objective-c/Untitled/Untitled.m:19: warning: missing sentinel in function call1(22@33"Missing sentinel in function call322123734#80#106#0(6@58"/Users/xucming/Code/github/objective-c/Untitled/Untitled.m322123733#19#0#19#0#0"0(0#0#58"/Users/xucming/Code/github/objective-c/Untitled/Untitled.m8614576288#1577"    cd /Users/xucming/Code/github/objective-c/Untitled    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-generated-files.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-own-target-headers.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-all-target-headers.hmap -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-project-headers.hmap -F/Users/xucming/Code/github/objective-c/Untitled/build/Debug -I/Users/xucming/Code/github/objective-c/Untitled/build/Debug/include -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources/x86_64 -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources -include /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch -c /Users/xucming/Code/github/objective-c/Untitled/Untitled.m -o /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.o0#
+
+CLd /Users/xucming/Code/github/objective-c/Untitled/build/Debug/Untitled normal x86_64
+s322123734.993814
+e322123735.012634
+r1
+xLd
+x/Users/xucming/Code/github/objective-c/Untitled/build/Debug/Untitled
+xnormal
+xx86_64
+lSLF07#2@73"Link /Users/xucming/Code/github/objective-c/Untitled/build/Debug/Untitled322123734#322123735#0(0"0(0#0#0"8615561504#569"    cd /Users/xucming/Code/github/objective-c/Untitled    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/xucming/Code/github/objective-c/Untitled/build/Debug -F/Users/xucming/Code/github/objective-c/Untitled/build/Debug -filelist /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/xucming/Code/github/objective-c/Untitled/build/Debug/Untitled0#
+
+CProcessPCH /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch.gch Untitled_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321962114.792128
+e321962119.108747
+r1
+xProcessPCH
+x/var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch.gch
+xUntitled_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Untitled_Prefix.pch321962114#321962119#0(0"0(0#0#67"/Users/xucming/Code/github/objective-c/Untitled/Untitled_Prefix.pch5791458032595789824#1465"    cd /Users/xucming/Code/github/objective-c/Untitled    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-generated-files.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-own-target-headers.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-all-target-headers.hmap -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-project-headers.hmap -F/Users/xucming/Code/github/objective-c/Untitled/build/Debug -I/Users/xucming/Code/github/objective-c/Untitled/build/Debug/include -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources/x86_64 -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources -c /Users/xucming/Code/github/objective-c/Untitled/Untitled_Prefix.pch -o /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch.gch0#
+

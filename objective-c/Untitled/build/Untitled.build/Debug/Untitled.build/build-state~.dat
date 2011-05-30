@@ -1,0 +1,138 @@
+TUntitled
+v7
+r0
+t321962119.713816
+cCheck dependencies
+cProcessPCH /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch.gch Untitled_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.o /Users/xucming/Code/github/objective-c/Untitled/Untitled.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/LotteryEntry.o /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C30993C00000000000000EE
+t1278253372
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B90FBB700000000000013E6
+t1267792823
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CD5C66A0000000000B3E910
+t1289078378
+s11790608
+
+N/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h
+c000000004D8086F20000000000000199
+t1300268786
+s409
+i<Cocoa/Cocoa.h>
+
+N/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m
+c000000004D80878700000000000002A8
+t1300268935
+s680
+i"LotteryEntry.h"
+i<Cocoa/Cocoa.h>
+
+N/Users/xucming/Code/github/objective-c/Untitled/Untitled.m
+c000000004D808901000000000000030B
+t1300269313
+s779
+i<Foundation/Foundation.h>
+i"LotteryEntry.h"
+
+N/Users/xucming/Code/github/objective-c/Untitled/Untitled_Prefix.pch
+c000000004D5F9A28000000000000009E
+t1298111016
+s158
+i<Foundation/Foundation.h>
+
+N/Users/xucming/Code/github/objective-c/Untitled/build/Debug/Untitled
+t2
+s0
+
+N/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/LotteryEntry.o
+t2
+s0
+
+N/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.LinkFileList
+c000000004D80890200000000000000FA
+t1300269314
+s250
+
+N/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.o
+t2
+s0
+
+N/var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch.gch
+t1300269319
+s41401104
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321962114#321962114#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/LotteryEntry.o /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321962119.110211
+e321962119.631967
+r0
+xCompileC
+xbuild/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/LotteryEntry.o
+x/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:9:
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h:19: error: expected ')' before 'date'
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h:19: error: expected identifier before ';' token
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: '@end' missing in implementation context
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: incomplete implementation of class 'LotteryEntry'
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: method definition for '-secondNumber' not found
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: method definition for '-firstNumber' not found
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: method definition for '-entryDate' not found
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: method definition for '-prepareRandomNumbers' not found
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: error: reimplementation of class 'LotteryEntry'
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:29: error: expected ')' before 'date'
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:29: error: expected identifier before '{' token
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:29: confused by earlier errors, bailing out
+lSLF07#2@70"Compile /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321962119#321962119#0(1477"In file included from /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:9:/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h:19: error: expected ')' before 'date'/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h:19: error: expected identifier before ';' token/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: '@end' missing in implementation context/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: incomplete implementation of class 'LotteryEntry'/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: method definition for '-secondNumber' not found/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: method definition for '-firstNumber' not found/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: method definition for '-entryDate' not found/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: warning: method definition for '-prepareRandomNumbers' not found/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:25: error: reimplementation of class 'LotteryEntry'/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:29: error: expected ')' before 'date'/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:29: error: expected identifier before '{' token/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m:29: confused by earlier errors, bailing out12(4@26"Expected ')' before 'date'321962119#88#101#2(7@84"In file included from /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321962119#18446744073709551615#0#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#9#0#9#0#0"0(13@92"Expected ')' before 'date' in /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321962119#18446744073709551615#0#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321961586#19#0#19#0#0"0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321961586#19#0#19#0#19"expected * before *0(4@36"Expected identifier before ';' token321962119#189#111#2(7@84"In file included from /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321962119#18446744073709551615#0#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#9#0#9#0#0"0(13@102"Expected identifier before ';' token in /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321962119#18446744073709551615#0#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321961586#19#0#19#0#0"0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321961586#19#0#19#0#19"expected * before *0(22@40"'@end' missing in implementation context321962119#300#117#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#25#0#25#0#40"'@end' missing in implementation context0(22@49"Incomplete implementation of class 'LotteryEntry'321962119#417#126#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#25#0#25#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-secondNumber' not found321962119#543#124#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#25#0#25#0#35"method definition for '*' not found0(22@46"Method definition for '-firstNumber' not found321962119#667#123#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#25#0#25#0#35"method definition for '*' not found0(22@44"Method definition for '-entryDate' not found321962119#790#121#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#25#0#25#0#35"method definition for '*' not found0(22@55"Method definition for '-prepareRandomNumbers' not found321962119#911#132#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#25#0#25#0#35"method definition for '*' not found0(4@40"Reimplementation of class 'LotteryEntry'321962119#1043#115#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#25#0#25#0#0"0(4@26"Expected ')' before 'date'321962119#1158#101#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#29#0#29#0#19"expected * before *0(4@36"Expected identifier before '{' token321962119#1259#111#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#29#0#29#0#19"expected * before *0(4@39"Confused by earlier errors, bailing out321962119#1370#107#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m321961735#29#0#29#0#39"confused by earlier errors, bailing out0(0#0#62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m8614615072#1585"    cd /Users/xucming/Code/github/objective-c/Untitled    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-generated-files.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-own-target-headers.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-all-target-headers.hmap -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-project-headers.hmap -F/Users/xucming/Code/github/objective-c/Untitled/build/Debug -I/Users/xucming/Code/github/objective-c/Untitled/build/Debug/include -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources/x86_64 -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources -include /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch -c /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.m -o /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/LotteryEntry.o1#
+
+CCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.o /Users/xucming/Code/github/objective-c/Untitled/Untitled.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321962119.108986
+e321962119.713700
+r0
+xCompileC
+xbuild/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.o
+x/Users/xucming/Code/github/objective-c/Untitled/Untitled.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/xucming/Code/github/objective-c/Untitled/Untitled.m:2:
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h:19: error: expected ')' before 'date'
+o/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h:19: error: expected identifier before ';' token
+lSLF07#2@66"Compile /Users/xucming/Code/github/objective-c/Untitled/Untitled.m321962119#321962119#0(296"In file included from /Users/xucming/Code/github/objective-c/Untitled/Untitled.m:2:/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h:19: error: expected ')' before 'date'/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h:19: error: expected identifier before ';' token2(4@26"Expected ')' before 'date'321962119#84#101#2(7@80"In file included from /Users/xucming/Code/github/objective-c/Untitled/Untitled.m321962119#18446744073709551615#0#0(6@58"/Users/xucming/Code/github/objective-c/Untitled/Untitled.m321962113#2#0#2#0#0"0(13@92"Expected ')' before 'date' in /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321962119#18446744073709551615#0#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321961586#19#0#19#0#0"0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321961586#19#0#19#0#19"expected * before *0(4@36"Expected identifier before ';' token321962119#185#111#2(7@80"In file included from /Users/xucming/Code/github/objective-c/Untitled/Untitled.m321962119#18446744073709551615#0#0(6@58"/Users/xucming/Code/github/objective-c/Untitled/Untitled.m321962113#2#0#2#0#0"0(13@102"Expected identifier before ';' token in /Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321962119#18446744073709551615#0#0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321961586#19#0#19#0#0"0(6@62"/Users/xucming/Code/github/objective-c/Untitled/LotteryEntry.h321961586#19#0#19#0#19"expected * before *0(0#0#58"/Users/xucming/Code/github/objective-c/Untitled/Untitled.m8615798688#1577"    cd /Users/xucming/Code/github/objective-c/Untitled    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-generated-files.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-own-target-headers.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-all-target-headers.hmap -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-project-headers.hmap -F/Users/xucming/Code/github/objective-c/Untitled/build/Debug -I/Users/xucming/Code/github/objective-c/Untitled/build/Debug/include -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources/x86_64 -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources -include /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch -c /Users/xucming/Code/github/objective-c/Untitled/Untitled.m -o /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.o1#
+
+CLd /Users/xucming/Code/github/objective-c/Untitled/build/Debug/Untitled normal x86_64
+r0
+
+CProcessPCH /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch.gch Untitled_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s321962114.792128
+e321962119.108747
+r1
+xProcessPCH
+x/var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch.gch
+xUntitled_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Untitled_Prefix.pch321962114#321962119#0(0"0(0#0#67"/Users/xucming/Code/github/objective-c/Untitled/Untitled_Prefix.pch5791458032595789824#1465"    cd /Users/xucming/Code/github/objective-c/Untitled    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-generated-files.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-own-target-headers.hmap -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-all-target-headers.hmap -iquote /Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/Untitled-project-headers.hmap -F/Users/xucming/Code/github/objective-c/Untitled/build/Debug -I/Users/xucming/Code/github/objective-c/Untitled/build/Debug/include -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources/x86_64 -I/Users/xucming/Code/github/objective-c/Untitled/build/Untitled.build/Debug/Untitled.build/DerivedSources -c /Users/xucming/Code/github/objective-c/Untitled/Untitled_Prefix.pch -o /var/folders/U2/U2RBiodfES8pRnHohBXmvE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Untitled_Prefix-fararmyctfxiohfnjrllaomogrrr/Untitled_Prefix.pch.gch0#
+

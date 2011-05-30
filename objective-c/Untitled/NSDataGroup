@@ -1,0 +1,14 @@
+//
+//  NSDataGroup
+//  Untitled
+//
+//  Created by cming on 3/18/11.
+//  Copyright 2011 pinpoin.cn. All rights reserved.
+//
+
+#import "NSDataGroup.h"
+
+
+@implementation NSDataGroup
+
+@end

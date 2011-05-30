@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		807BE37B1330BE0700AB8C92 /* LotteryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 807BE37A1330BE0700AB8C92 /* LotteryEntry.m */; };
 		8DD76F9A0486AA7600D96B5E /* Untitled.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* Untitled.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* Untitled.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* Untitled.1 */; };
@@ -29,7 +30,11 @@
 		08FB7796FE84155DC02AAC07 /* Untitled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Untitled.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* Untitled_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Untitled_Prefix.pch; sourceTree = "<group>"; };
-		8DD76FA10486AA7600D96B5E /* Untitled */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Untitled; path = "/Users/xucming/Code/github/objective-c/Untitled/build/Debug/Untitled"; sourceTree = "<absolute>"; };
+		806AF48213331EF60075EA17 /* NSDataGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataGroup.h; sourceTree = "<group>"; };
+		806AF48313331EF60075EA17 /* NSDataGroup */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSDataGroup; sourceTree = "<group>"; };
+		807BE36C1330BDEA00AB8C92 /* Untitled */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Untitled; sourceTree = BUILT_PRODUCTS_DIR; };
+		807BE3791330BE0700AB8C92 /* LotteryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryEntry.h; sourceTree = "<group>"; };
+		807BE37A1330BE0700AB8C92 /* LotteryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryEntry.m; sourceTree = "<group>"; };
 		C6859EA3029092ED04C91782 /* Untitled.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Untitled.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +66,10 @@
 			children = (
 				32A70AAB03705E1F00C91783 /* Untitled_Prefix.pch */,
 				08FB7796FE84155DC02AAC07 /* Untitled.m */,
+				807BE3791330BE0700AB8C92 /* LotteryEntry.h */,
+				807BE37A1330BE0700AB8C92 /* LotteryEntry.m */,
+				806AF48213331EF60075EA17 /* NSDataGroup.h */,
+				806AF48313331EF60075EA17 /* NSDataGroup */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -76,6 +85,7 @@
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				807BE36C1330BDEA00AB8C92 /* Untitled */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,7 +116,7 @@
 			name = Untitled;
 			productInstallPath = "$(HOME)/bin";
 			productName = Untitled;
-			productReference = 8DD76FA10486AA7600D96B5E /* Untitled */;
+			productReference = 807BE36C1330BDEA00AB8C92 /* Untitled */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -132,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9A0486AA7600D96B5E /* Untitled.m in Sources */,
+				807BE37B1330BE0700AB8C92 /* LotteryEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
