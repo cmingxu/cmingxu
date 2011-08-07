@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/xucming/Code/photomugs/photomugs/vendor/extensions/cversion'
+let g:netrw_dirhist_2='/Users/xucming/Code/cardsys'
+let g:netrw_dirhist_3='/Users/xucming/Code/ruby'
+let g:netrw_dirhist_4='/Users/xucming/.rvm/gems/ree-1.8.7-2010.02/gems/inherited_resources-1.0.6'
+let g:netrw_dirhist_5='/Users/kevin/Code/work/OFServer'
+let g:netrw_dirhist_6='/Users/kevin'
+let g:netrw_dirhist_7='/Users/kevin/Code/work/OFServer'
+let g:netrw_dirhist_8='/Users/kevin/Code/opensource/sidework/cardsys'
